@@ -8,7 +8,7 @@ cliente.
 Exemplo:
 Qual o valor do saque?
 72
-Você
+Você 
 receberá
 1 nota(s) de R$ 50,00
 2 nota(s) de R$ 10,00

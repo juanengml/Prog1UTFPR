@@ -1,7 +1,5 @@
-import os 
-import time 
-while True:
-  os.system(""" mosquitto_pub -t /device/temperatura -i "admin:99381" -m '{"temperatura": 20.0}' """)
-  time.sleep(0.5)
-  print "Sende data " + """mosquitto_pub -t /device/temperatura -i "admin:99381" -m '{"temperatura" : 40.0}'  """
 
+notas = [1,10,50]
+
+entrada = int(raw_input("Qual o valor do saque ? "))
+print entrada
