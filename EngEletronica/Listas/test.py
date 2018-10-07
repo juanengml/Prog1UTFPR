@@ -14,8 +14,8 @@ def get_values():
 def set_value():
 
     get_values()
-    
-    return a+b+c
+    soma = a+b+c
+    return soma
     
 print set_value()
     
