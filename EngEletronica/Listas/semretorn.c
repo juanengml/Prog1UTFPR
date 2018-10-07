@@ -3,7 +3,7 @@
 
 
 int soma(int q,int w, int e){
-	return (q+w+e);
+	printf("SOMA: %d\n",(q+w+e));
 }
 
  
@@ -19,10 +19,8 @@ void valor(void){
    printf("c: ");
    scanf("%d",&c);
    
-   printf("Valor de A: %d \n",a);
-   printf("Valor de B: %d \n",b);
-   printf("Valor de C: %d \n",c);
 
+   soma(a,b,c);
    return 0;
 }
 
