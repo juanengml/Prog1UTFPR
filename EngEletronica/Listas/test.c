@@ -1,22 +1,19 @@
+
 #include <stdio.h>
 #include <stdlib.h>
 
-/* as funções rand(), random() e srand() estão no cabeçalho stdlib.h */
+void preenche(int L[10][10]);
 
+void preenche(int L[10][10]) { 
+   int i, j; 
+   for(i=0; i<10; i++) 
+      for(j=0; j<10; j++) { 
+         
+         scanf("%d", &L[i][j]);   
+   }
+  } 
 
-float calculo_Area_Triangulo(float base,float altura){
-	return base * altura;
-}
-
-void main(){
-	int i;
-	for (i = 0; i < 49; i++){
-		float base = valores();
-		float altura = valores();
-		printf("%d\n",i);
-		printf("Base: %.2f\n", base);
-		printf("Altura: %.2f\n", altura);
-		printf("Area: %.2f\n", calculo_Area_Triangulo(base,altura));
-		//system("sleep 1");
-	}
-}
+int main(){
+	preenche();
+	return 0;
+}   
