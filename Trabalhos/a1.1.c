@@ -46,12 +46,9 @@ int  main(){
 	    }
 
     
-	    for(i = 0; i < 3; i++)
-	    {
-	            for(j = 0; j < 3; j++)
-	            {
-	                    for(z = 0; z < 3; z++)
-	                    {
+	    for(i = 0; i < 3; i++){
+	            for(j = 0; j < 3; j++){
+	                    for(z = 0; z < 3; z++){
 	                            resultado[i][j] +=  m1[i][z] *  m2[z][j];
 	                    }
 	            }
