@@ -1,0 +1,13 @@
+mamifaro,quadrupede    ,carnivoro,lẽao
+mamifaro,quadrupede    ,herbivoro,cavalo
+mamifaro,bipede        ,onivoro  ,humano
+mamifaro,bipede        ,frutifuro,macaco
+mamifaro,voadores      ,null     ,morcego
+mamifaro,aquatico      ,null     ,baleia
+aves    ,não-voadores  ,tropical ,avestruz
+aves    ,não-voadores  ,polar    ,pinguim
+aves    ,nadadoras     ,null     ,pato
+aves    ,derapina      ,null     ,aguia
+repteis ,com casco     ,null     ,tartaruga
+repteis ,carnivoros    ,null     ,crocodilo
+repteis ,sem patas     ,null     ,cobra  
