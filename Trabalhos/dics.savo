@@ -1,0 +1,9 @@
+struct Palavra *p = malloc(quantidade_palavras*sizeof(struct Palavra));
+int i;
+
+for (i = 0; i < quantidade_palavras; i++){
+   if  p[i].text 
+
+}
+
+

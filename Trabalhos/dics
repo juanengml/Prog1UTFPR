@@ -1,0 +1,5 @@
+struct Palavra *p = malloc(quantidade_palavras*sizeof(struct Palavra));
+
+
+
+
