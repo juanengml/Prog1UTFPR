@@ -58,25 +58,17 @@ struct Palavra * lerArquivo(const char * arquivo, int *quantidade_palavras)
 	return p;
 }
 
-
-
+// guto.vha.4@gmail.com
 
 int contarPalavras(const char * arquivo){
   FILE * fp = fopen(arquivo, "r");
-  int i;
   char valor[100];
   int aux = 0;
-  int vogal = 0;
-  int consoantes = 0;
-
-  while(fscanf(fp,"%s",valor) != EOF){
-  //	printf("Valor: %s\n", valor);
-  	int tam = strlen(valor);
-  	aux = aux + 1;
-   //fscanf(fp,"%s",palavra)
- }
- fclose(fp);
- return aux;
+ 
+  while(fscanf(fp,"%s",valor) != EOF){aux = aux + 1;}
+  
+  fclose(fp);
+  return aux;
 }
 
 void imprimePalavras(const struct Palavra * palavras, int tamanho){
