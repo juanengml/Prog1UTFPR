@@ -8,7 +8,7 @@ int main(){
 	int come;
 	int massa;
 
-    printf(" 0 - mamifero  \n 1 - ave\n 2 - reptil \nNumero => ");
+    printf(" 0 - mamifero  \n 1 - ave\n 2 - reptil \n3 - SAIR\nNumero => ");
     scanf("%d",&opcao);
     if (opcao == 0){
     	printf(" 0 - quadrupede  \n 1 - bipede\n 2 - voa \n 3 - nada\nNumero => ");
@@ -84,6 +84,9 @@ int main(){
     		  break;
 
     	}
+    }
+    if (opcao == 3){
+    	printf("SAIR\n");
     }
     
 

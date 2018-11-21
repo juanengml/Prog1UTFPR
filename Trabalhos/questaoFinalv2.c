@@ -44,7 +44,7 @@ struct Palavra * lerArquivo(const char * arquivo, int *quantidade_palavras)
 	  	int tamanho = strlen(valor);
 	  	for (j = 0; j < tamanho; j++)
 	  	{
-   			//printf("%c\n", valor[j]);
+   		      printf("%c\n", valor[j]);
 		      if (valor[j] == 'a' || valor[j] == 'e' || valor[j] == 'i' || valor[j] == 'o' || valor[j] == 'u')
 		      	p[i].quantidade_vogais++;
 		      else
@@ -76,17 +76,20 @@ int contarPalavras(const char * arquivo){
 void imprimePalavras(const struct Palavra * palavras, int tamanho){
    int i;
    for (i = 0; i < tamanho; i++){
-   	 printf("\tTexto: %s\t Vogais: %d\t Consoantes: %d \n", palavras[i].texto,palavras[i].quantidade_vogais,palavras[i].quantidade_consoantes);
-   
+   	 printf("\tTexto: %s\t Vogais: %d\t Consoantes: %d \n", palavras[i].texto,palavras[i].quantidade_vogais,palavras[i].quantidade_consoantes);  
    }
 }
 
 int main()
 {
    struct Palavra *a;
+
    int quantidade_palavras;
+
    quantidade_palavras = contarPalavras("arquivo.txt");
+
    a = lerArquivo("arquivo.txt", &quantidade_palavras);
+   
    imprimePalavras(a,quantidade_palavras);  
 
   return 0;
