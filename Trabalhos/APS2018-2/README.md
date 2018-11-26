@@ -1,5 +1,5 @@
 
-Tarefinha
+## Tarefinha
 + ler um arquivo com sequencia de pontos 
 Exemplo do arquivo.txt 
 
@@ -16,10 +16,11 @@ Exemplo do arquivo.txt
 - 6,1
 
 
-Contar os pontos de saida
+#### Contar os pontos de saida
 
 ++++++++++++++++++++++++++++++++++
-APS AJUSTE 
+
+## APS AJUSTE 
 => INT
 => Out
 
