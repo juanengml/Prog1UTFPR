@@ -14,7 +14,8 @@ Exemplo do arquivo.txt
 - 5,1
 
 - 6,1
-
+-> Done !
+https://repl.it/@juanengml/ContaPontos?language=c
 
 #### Contar os pontos de saida
 
